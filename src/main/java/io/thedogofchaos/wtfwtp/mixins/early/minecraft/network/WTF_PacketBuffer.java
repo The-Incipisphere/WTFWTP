@@ -29,7 +29,7 @@ public class WTF_PacketBuffer {
         if (s.length() > maxLength) {
             throw new IOException(
                 "[WTFWTP] String too long: length=" + s
-                    .length() + ", max=" + maxLength + ", encodedBytes=" + j + ", value=\"" + s + "\"");
+                    .length() + ", max=" + maxLength + ", encodedBytes=" + j + ", badString=\"" + s + "\"");
         }
     }
 }
