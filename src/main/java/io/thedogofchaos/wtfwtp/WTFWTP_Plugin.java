@@ -33,7 +33,7 @@ public class WTFWTP_Plugin implements IFMLLoadingPlugin, IEarlyMixinLoader {
 
     @Override
     public List<String> getMixins(Set<String> loadedCoreMods) {
-        return Collections.singletonList("minecraft.network.PacketBuffer_WTF");
+        return Collections.singletonList("minecraft.network.WTF_PacketBuffer");
     }
 
     @Override

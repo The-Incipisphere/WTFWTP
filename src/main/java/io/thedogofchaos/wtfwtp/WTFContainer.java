@@ -26,6 +26,7 @@ public class WTFContainer extends DummyModContainer {
         md.name = "What the Frick Was That Packet?";
         md.url = "https://github.com/The-Incipisphere/WTFWTP";
         md.version = Tags.VERSION;
+        md.logoFile = "logo.png";
     }
 
     @Override
