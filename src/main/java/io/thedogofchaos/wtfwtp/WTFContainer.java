@@ -21,7 +21,7 @@ public class WTFContainer extends DummyModContainer {
 
         // NOTE: If you change this, change mcmod.info too!
         md.authorList = Collections.singletonList("TheDogOfChaos");
-        md.description = "Makes PacketBuffer actually spit out what was 'too long' for it.";
+        md.description = "Makes PacketBuffer#readStringFromBuffer actually spit out what was 'too long' for it.";
         md.modId = "wtfwtp";
         md.name = "What the Frick Was That Packet?";
         md.url = "https://github.com/The-Incipisphere/WTFWTP";
