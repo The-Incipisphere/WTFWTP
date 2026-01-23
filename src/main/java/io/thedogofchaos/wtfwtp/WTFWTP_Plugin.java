@@ -17,7 +17,7 @@ import java.util.Map;
 import java.util.Set;
 
 @MCVersion("1.7.10")
-@Name("What the Frick Was That Packet?")
+@Name("What the FRICK Was That Packet?")
 @TransformerExclusions("io.thedogofchaos.wtfwtp.WTFWTP_Plugin")
 public class WTFWTP_Plugin implements IFMLLoadingPlugin, IEarlyMixinLoader {
     public static final Logger LOGGER = LogManager.getLogger("wtfwtp");
